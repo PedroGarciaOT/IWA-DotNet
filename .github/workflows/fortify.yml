@@ -59,3 +59,4 @@ jobs:
           FOD_RELEASE: ${{vars.FOD_RELEASE}}
           DO_EXPORT: true
           DO_JOB_SUMMARY: true
+          DO_PR_COMMENT: true
