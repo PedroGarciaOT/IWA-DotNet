@@ -54,7 +54,7 @@ jobs:
           debricked-sca-scan: true
         env:
           FOD_URL: https://ams.fortify.com
-          FOD_TENANT: ${{env.secrets.FOD_TENANT}}
+          FOD_TENANT: ${{secrets.FOD_TENANT}}
           FOD_USER: ${{secrets.FOD_USER}}
           FOD_PASSWORD: ${{secrets.FOD_PAT}}
           FOD_RELEASE: ${{vars.FOD_RELEASE}}
