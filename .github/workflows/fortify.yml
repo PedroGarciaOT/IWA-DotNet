@@ -22,6 +22,7 @@ on:
 
 jobs:
   Fortify-AST-Scan:
+    environment: FortifyEnvironment
     # Use the appropriate runner for building your source code.
     runs-on: windows-latest
     permissions:
